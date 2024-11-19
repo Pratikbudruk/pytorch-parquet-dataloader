@@ -71,7 +71,7 @@ python parquet_loader.py --mock --batch_size 8
     ds = datasets.load_dataset("OpenAssistant/oasst1", split="validation")
     
     # Save the dataset as a Parquet file
-    ds.to_parquet("/home/jupyter/oasst1_validation.parquet")
+    ds.to_parquet("oasst1_validation.parquet")
     ```
    
 3. **Testing the Parquet file**
