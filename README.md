@@ -51,12 +51,13 @@ This project includes a script that processes a Parquet file using PyTorch's `Da
 ```bash
 python parquet_loader.py path_to_parquet_file --columns col1 col2 --batch_size 8 --num_workers 2
 ```
-
+# for mock test
 ```bash
 python parquet_loader.py --mock --batch_size 8
 ```
 
-## Load Dataset from Hugging Face
+
+### Load Dataset from Hugging Face
 
 1. **Install the necessary package:**
     ```bash
